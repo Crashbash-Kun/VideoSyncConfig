@@ -1,5 +1,7 @@
 # Pixiv-Fix
 
+See Releases for Executable. https://github.com/Crashbash-Kun/Pixiv-Fix/releases
+
 Pixiv's (or, the Japanese DeviantArt, as I call it) servers occasionally have a fit and results in downloaded images not being images, but rather being a 403 Forbidden error named as a .png, .jpg, ect. This can result in hundreds of images being 'corrupted' per say as they're just a few hundred byte files instead of images.
 
 To fix this, this program essentially scans an inputted directory for files less than 500 bytes in size and allows them to be saved as a list in text format. The ImageID (filenames) can then be used to re-download the images properly with a tool such as Pixiv Util2.
